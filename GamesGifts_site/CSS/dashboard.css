@@ -1,0 +1,76 @@
+/* تعيين ارتفاع الصفحة بالكامل */
+html, body {
+    height: 100%; /* تأكيد أن الصفحة تغطي كامل الشاشة */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    display: flex;
+    flex-direction: column; /* لضمان أن الفوتر في الأسفل */
+}
+
+
+/* تنسيق الكنز */
+.treasure-image {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.treasure-image:hover {
+    transform: scale(1.1); /* تأثير التكبير عند التمرير */
+}
+
+.points-display {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2575fc;
+    margin-top: 20px;
+}
+
+.treasure-container {
+    padding-top: 50px;
+    height: 80vh; /* تحديد ارتفاع الحاوية ليكون 80% من ارتفاع الشاشة */
+}
+
+/* جعل العنصر في المنتصف عموديًا وأفقيًا */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center; /* محاذاة العناصر أفقياً */
+}
+
+.align-items-center {
+    align-items: center; /* محاذاة العناصر عمودياً */
+}
+
+
+footer {
+    margin-top: auto; /* تأكيد أن الفوتر يبقى في الأسفل */
+    background: #343a40;
+    color: white;
+    padding: 30px 0;
+}
+
+footer a {
+    color: #f8f9fa;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #00aaff;
+    text-decoration: underline;
+}
+
+footer .btn-outline-light {
+    border: 1px solid white;
+    color: white;
+    transition: all 0.3s;
+}
+
+footer .btn-outline-light:hover {
+    background: white;
+    color: #343a40;
+}
+
+

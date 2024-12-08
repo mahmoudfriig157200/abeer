@@ -1,0 +1,12 @@
+--- Requist with GameName , GameiD , UserEmail [  ]
+--- Validation if UserEmailFound database add points under that user : Notfound add new user That email 
+--- 
+
+
+
+--- WORK 
+-- Youtubers => referal link => Users His revenue 
+
+
+
+
